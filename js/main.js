@@ -1,8 +1,33 @@
+function botao(){
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigada por clicar</b>"   
+    //console.log(document.getElementById("agradecimento"))
+    //alert("Obrigada por clicar")
+}
+
+function redirecionar(){
+    window.open("https://github.com/goesrafa/aula.JavaScript") // outra aba 
+   // window.location.href = "https://github.com/goesrafa/aula.JavaScript/" //abrir na mesma aba
+}
+
+function trocar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Obrigada por interagir"
+    elemento.innerHTML = "Obrigada por interagir"
+    //alert("trocar texto")
+}
+
+function voltar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Passe de novo"
+    elemento.innerHTML = "Passe de novo"
+}
+
+
 /*function soma(n1, n2){
     return n1 + n2
 }
 
-function validaIdade(idade){
+alert(soma(5,10))*/
+
+/*function validaIdade(idade){
     var validar;
     if(idade >= 18){
         validar = true;
@@ -14,9 +39,9 @@ function validaIdade(idade){
 }
 
 var idade = prompt("Qual sua idade?") 
-console.log(validaIdade(idade))
-//alert(soma(5,10))
-*/
+console.log(validaIdade(idade))*/
+
+
 
 /*var d = Date()
 alert(d);
