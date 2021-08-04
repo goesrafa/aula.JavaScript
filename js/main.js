@@ -1,3 +1,30 @@
+/*var d = Date()
+alert(d);
+trabalho com data*/
+
+/*var count
+for (count=0; count <= 5; count++) {
+    alert(count)   
+}
+repetição com for*/
+
+/*var count = 0
+while(count <= 5){
+    console.log(count);
+    alert(count)
+    count++
+}
+estrutura de repetição*/
+
+/*var idade = prompt("Qual sua idade")
+
+if(idade >= 18){
+    alert("Maior de idade")
+}else{
+    alert("Menor de idade")
+}
+*/
+
 /*var carros = [{nome:"Renault", modelo: "Sandero"}, {nome:"Ford", modelo: "EcoSport"}]
 console.log(carros)
 alert(carros[1].modelo)
