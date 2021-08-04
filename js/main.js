@@ -1,4 +1,4 @@
-function botao(){
+/*function botao(){
     document.getElementById("agradecimento").innerHTML = "<b>Obrigada por clicar</b>"   
     //console.log(document.getElementById("agradecimento"))
     //alert("Obrigada por clicar")
@@ -20,6 +20,14 @@ function voltar(elemento){
     elemento.innerHTML = "Passe de novo"
 }
 
+function load(){
+    alert("Carregamento completo")
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value)
+}
+*/
 
 /*function soma(n1, n2){
     return n1 + n2
